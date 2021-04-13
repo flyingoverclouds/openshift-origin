@@ -3,22 +3,22 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"_artifactsLocation": {
-			"value": "https://raw.githubusercontent.com/Microsoft/openshift-origin/release-3.9"
+			"value": "https://raw.githubusercontent.com/flyingoverclouds/openshift-origin/release-3.9"
 		},
 		"masterVmSize": {
-			"value": "Standard_D4s_v3"
+			"value": "Standard_D2s_v3"
 		},
 		"infraVmSize": {
-			"value": "Standard_D4s_v3"
+			"value": "Standard_D2s_v3"
 		},
 		"nodeVmSize": {
-			"value": "Standard_D4s_v3"
+			"value": "Standard_D2s_v3"
 		},
 		"storageKind": {
 			"value": "managed"
 		},
 		"openshiftClusterPrefix": {
-			"value": "changeme"
+			"value": "ncl"
 		},
 		"masterInstanceCount": {
 			"value": 3
@@ -27,16 +27,16 @@
 			"value": 3
 		},
 		"nodeInstanceCount": {
-			"value": 3
+			"value": 2
 		},
 		"dataDiskSize": {
 			"value": 128
 		},
 		"adminUsername": {
-			"value": "changeme"
+			"value": "niclerc"
 		},
 		"openshiftPassword": {
-			"value": "changeme"
+			"value": "azure75azure75!"
 		},
 		"enableMetrics": {
 			"value": "false"
@@ -45,31 +45,31 @@
 			"value": "false"
 		},
 		"sshPublicKey": {
-			"value": "changeme"
+			"value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDa+/VMr2mWsB9juqEjCEfd5rjvGFDpTOCvoCri9gujLyTOQzjOL/0/SCIZU4nCe9ThEPrpieB6DR9l5rypFtIrju4adVyI485VqFlnxs5diZaI2jpHlL4gI1RetnhVMEm7BK0Pd0hhjaI+fmitSNp64ofZvFwj57/dKp8/PZLxF3J/1JE/q5h+oWF9pEt55t2cyPiOZZtFrOCCSAiJRLffKjC9Z0nHHsh4S4F6vyc5ZEEn1AG9NkjrxuXZDvupyEiiTkcKLKojxkThE6DcjWssT5S7m9wBU5BrPj2y4CNhe8Nm7LeEruNZzSzBZ5n4D1hVK5NKFGe2cJWreoEcPM+N niclerc@NICLERCSB"
 		},
 		"keyVaultResourceGroup": {
-			"value": "changeme"
+			"value": "rhostraining"
 		},
 		"keyVaultName": {
-			"value": "changeme"
+			"value": "kvosncl"
 		},
 		"keyVaultSecret": {
-			"value": "changeme"
+			"value": "rhoskey"
 		},
 		"enableAzure": {
-			"value": "true"
+			"value": "false"
 		},
 		"aadClientId": {
-			"value": "changeme"
+			"value": "ba986b88-493d-4b1c-bca5-e619966a9d57"
 		},
 		"aadClientSecret": {
-			"value": "changeme"
+			"value": "azure75azure75!"
 		},
 		"defaultSubDomainType": {
 			"value": "nipio"
 		},
 		"defaultSubDomain": {
-			"value": "changeme"
+			"value": "openshift.kangooroo.red"
 		}
 	}
 }
